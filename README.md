@@ -1,124 +1,124 @@
-# 📊 Customer Churn Analysis Using SQL
+Customer Churn Analysis and Prediction
+Project Overview
 
-## Overview
+Customer retention is a critical factor in the success of subscription-based businesses. Understanding why customers leave and identifying high-risk customers can help organizations reduce churn and improve profitability. This project focuses on analyzing customer behavior, uncovering key churn drivers, and building insights that support data-driven retention strategies.
 
-Customer churn is one of the most critical challenges faced by subscription-based businesses. This project analyzes customer churn data using SQL to identify factors that contribute to customer attrition and provide insights that can help improve customer retention.
+The project combines SQL, Python, and Tableau to perform end-to-end customer churn analysis, from data extraction and exploration to predictive analytics and dashboard visualization.
 
-The analysis focuses on customer demographics, service subscriptions, contract types, payment methods, tenure, monthly charges, and churn behavior.
+Business Problem
 
----
+Customer churn directly impacts revenue and growth. The objective of this project is to understand customer attrition patterns, identify factors influencing churn, and provide actionable insights that can help improve customer retention.
 
-## Objectives
+Project Objectives
+Analyze customer demographics and service usage patterns.
+Measure and monitor churn-related KPIs.
+Identify customer segments with high churn rates.
+Discover factors contributing to customer attrition.
+Build a predictive framework for churn identification.
+Present insights through an interactive Tableau dashboard.
+Methodology
+1. SQL Analysis
 
-- Calculate overall customer churn rate.
-- Identify customer segments with the highest churn.
-- Analyze the impact of contract types, payment methods, and services on churn.
-- Evaluate customer tenure and monthly charges.
-- Discover key factors influencing customer retention.
-- Generate actionable business insights.
+SQL was used to explore and analyze customer data by calculating key business metrics and identifying churn trends across different customer segments. Various analyses were conducted to understand the relationship between churn and customer characteristics such as contract type, internet service, payment methods, and tenure.
 
----
+2. Python Analysis
 
-## Dataset Information
+Python was used for data cleaning, preprocessing, exploratory data analysis, and predictive modeling. The dataset was examined for missing values, inconsistencies, and data quality issues before conducting statistical and visual analysis.
 
-The dataset contains information about telecom customers, including:
+A machine learning model was developed to identify customers with a high likelihood of churning. Feature importance analysis was performed to determine the variables that most strongly influence customer retention.
 
-- Customer ID
-- Gender
-- Senior Citizen Status
-- Partner & Dependents
-- Tenure
-- Phone Service
-- Internet Service
-- Online Security
-- Tech Support
-- Contract Type
-- Payment Method
-- Monthly Charges
-- Total Charges
-- Churn Status
+3. Tableau Dashboard
 
----
+An interactive dashboard was created to visualize key performance indicators and churn trends. The dashboard allows users to explore churn patterns across different customer groups and provides business stakeholders with actionable insights for decision-making.
 
-## Tools & Technologies
+Key Performance Indicators (KPIs)
 
-- SQL
-- MySQL
-- MySQL Workbench
-- GitHub
-- Tableau (Optional)
+The following metrics were analyzed throughout the project:
 
----
+Total Customers
+Active Customers
+Churned Customers
+Churn Rate (%)
+Monthly Revenue
+Revenue Lost Due to Churn
+Customer Retention Rate
+Analysis Areas
+Customer Demographics Analysis
 
-## SQL Analysis Performed
+Customer characteristics such as gender, senior citizen status, partner status, and dependents were analyzed to determine their relationship with churn behavior.
 
-1. Total Customers
-2. Total Churned Customers
-3. Churn Rate Analysis
-4. Active Customers
-5. Churn by Gender
-6. Churn by Contract Type
-7. Churn by Payment Method
-8. Churn by Internet Service
-9. Average Monthly Charges
-10. Average Customer Tenure
-11. Churn by Senior Citizen Status
-12. Churn by Partner Status
-13. Churn by Dependents
-14. Churn by Tech Support
-15. Revenue Lost Due to Churn
-16. Churn by Tenure Group
-17. High-Risk Customer Segments
-18. Monthly Charges vs Churn
-19. Customer Lifetime Value Analysis
-20. Top Churn Drivers
+Contract Analysis
 
----
+Customer churn was examined across different contract types to identify which plans are associated with higher attrition rates.
 
-## Key Findings
+Service Usage Analysis
 
-- Total Customers: **7,043**
-- Churned Customers: **1,869**
-- Overall Churn Rate: **26.54%**
-- Customers with **Month-to-Month contracts** showed the highest churn.
-- Customers without **Tech Support** were more likely to leave.
-- Higher monthly charges were associated with increased churn risk.
-- Customers with shorter tenure had significantly higher churn rates.
-- Long-term contract customers demonstrated stronger retention.
+Internet services, phone services, and additional service subscriptions were evaluated to understand their impact on customer retention.
 
----
+Revenue Analysis
 
-## Business Recommendations
+Monthly charges and total charges were analyzed to assess how pricing influences customer churn.
 
-- Encourage customers to switch from Month-to-Month to long-term contracts.
-- Improve technical support services.
-- Introduce retention offers for new customers.
-- Target high-risk customer segments with personalized campaigns.
-- Monitor customers with high monthly charges and low tenure.
+Tenure Analysis
 
----
+Customer tenure was studied to determine whether the length of customer relationships affects retention rates.
 
-## Skills Demonstrated
+Payment Method Analysis
 
-- SQL Query Writing
-- Data Analysis
-- Customer Segmentation
-- Churn Rate Analysis
-- CASE Statements
-- Aggregate Functions
-- Business KPI Reporting
-- Data-Driven Decision Making
+Different payment methods were compared to identify patterns associated with customer churn.
 
----
+Key Findings
+Customers with month-to-month contracts exhibited the highest churn rates.
+Customers with shorter tenure were significantly more likely to leave the company.
+Higher monthly charges were associated with increased churn probability.
+Certain payment methods showed higher churn rates compared to others.
+Long-term contract customers demonstrated stronger retention behavior.
+Contract type, tenure, and monthly charges emerged as the most influential factors affecting churn.
+Business Recommendations
+Strengthen Customer Retention Programs
 
-## Project Outcome
+Develop targeted retention campaigns for customers identified as high-risk based on tenure and contract type.
 
-This project demonstrates how SQL can be used to analyze customer behavior, identify churn drivers, and support business decisions aimed at improving customer retention and reducing revenue loss.
+Encourage Long-Term Contracts
 
----
+Provide incentives and promotional offers to encourage customers to move from month-to-month plans to longer-term contracts.
 
-## Author
+Improve Customer Onboarding
 
-**Ramandeep Kaur**
+Implement onboarding initiatives for new customers to improve engagement during the early stages of the customer lifecycle.
 
-Aspiring Data Analyst | SQL | MySQL | Tableau | Data Analytics
+Review Pricing Strategies
+
+Evaluate pricing structures and service bundles for customers with higher monthly charges.
+
+Utilize Predictive Analytics
+
+Leverage churn prediction models to proactively identify customers who may leave and implement preventive retention strategies.
+
+Dashboard Features
+
+The Tableau dashboard includes:
+
+Executive KPI Overview
+Churn Rate Monitoring
+Customer Segmentation Analysis
+Contract Type Analysis
+Service Usage Analysis
+Revenue Insights
+Interactive Filters and Drill-Down Capabilities
+Business Insight Summary
+Conclusion
+
+This project demonstrates a complete customer churn analysis workflow using SQL, Python, and Tableau. Through data exploration, predictive analytics, and visualization, the project provides valuable insights into customer behavior and highlights opportunities for improving customer retention. The findings can help businesses make informed decisions, reduce customer attrition, and increase long-term profitability.
+
+Skills Demonstrated
+SQL Data Analysis
+Data Cleaning and Preparation
+Exploratory Data Analysis (EDA)
+Machine Learning
+Predictive Analytics
+Data Visualization
+Tableau Dashboard Development
+Business Intelligence
+Data Storytelling
+Customer Retention Analysis
